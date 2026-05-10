@@ -12,10 +12,12 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        python-version: [3.10]
+        # Using 3.10 as your project is built on it, 
+        # 3.7 is outdated and will likely fail.
+        python-version: [3.8, 3.9, "3.10"]
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
@@ -26,14 +28,12 @@ jobs:
         pip install -r requirements.txt
     - name: Run System Checks
       env:
-        SECRET_KEY: "django-insecure-test-key-only-for-github-actions"
+        SECRET_KEY: "django-insecure-test-key"
         DEBUG: "True"
-        # We use dummy values for other secrets so the check command doesn't crash
-        EMAIL_HOST: "smtp.gmail.com"
-        EMAIL_PORT: "587"
         EMAIL_HOST_USER: "test@example.com"
         EMAIL_HOST_PASSWORD: "password"
         RAZORPAY_KEY_ID: "rzp_test_123"
         RAZORPAY_KEY_SECRET: "secret"
       run: |
+        # 'check' verifies the project structure without hanging the server
         python manage.py check
