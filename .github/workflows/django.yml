@@ -1,0 +1,39 @@
+name: Django CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 4
+      matrix:
+        python-version: [3.10]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run System Checks
+      env:
+        SECRET_KEY: "django-insecure-test-key-only-for-github-actions"
+        DEBUG: "True"
+        # We use dummy values for other secrets so the check command doesn't crash
+        EMAIL_HOST: "smtp.gmail.com"
+        EMAIL_PORT: "587"
+        EMAIL_HOST_USER: "test@example.com"
+        EMAIL_HOST_PASSWORD: "password"
+        RAZORPAY_KEY_ID: "rzp_test_123"
+        RAZORPAY_KEY_SECRET: "secret"
+      run: |
+        python manage.py check
