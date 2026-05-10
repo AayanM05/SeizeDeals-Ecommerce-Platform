@@ -1,0 +1,14 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}SeizeDeals Admin{% endblock %}
+
+{% block branding %}
+  <h1 id="site-name">
+    <img src="{% static 'images/logo.png' %}" style="height: 40px; vertical-align: middle;"> SeizeDeals Admin
+  </h1>
+{% endblock %}
+
+{% block extrastyle %}
+  <link rel="stylesheet" type="text/css" href="{% static 'admin-custom.css' %}">
+{% endblock %}

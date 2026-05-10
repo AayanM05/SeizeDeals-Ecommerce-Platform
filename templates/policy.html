@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="section-content padding-y" style="background-color: #fff; color: #000; font-family: 'Marcellus', serif;">
+  <div class="container" style="line-height: 1.8;">
+    <div class="text-center mb-5">
+      <h2 class="mt-3">Privacy & Cookies Policy</h2>
+      <p class="text-muted">Effective Date: April 2025</p>
+    </div>
+
+    <!-- Privacy Policy -->
+    <div class="mb-5">
+      <h3 class="mb-4">Privacy Policy</h3>
+      <p>
+        At <strong>SeizeDeals</strong>, your privacy is a top priority. This policy outlines how we collect, use, and safeguard your data when you interact with our platform.
+      </p>
+
+      <h5 class="mt-4">Information We Collect</h5>
+      <ul>
+        <li><strong>Personal Details:</strong> Name, email, phone, address.</li>
+        <li><strong>Payment Info:</strong> Transaction ID, payment status.</li>
+        <li><strong>Account Activity:</strong> Login credentials, order history, preferences.</li>
+        <li><strong>Technical Metadata:</strong> IP, browser/device type, pages visited.</li>
+      </ul>
+
+      <h5 class="mt-4">How We Use Your Information</h5>
+      <ul>
+        <li>To fulfill orders and manage transactions.</li>
+        <li>To offer personalized experiences and support.</li>
+        <li>To send important updates and promotional content (if opted in).</li>
+        <li>To improve services through analytics and user feedback.</li>
+      </ul>
+
+      <h5 class="mt-4">Data Sharing</h5>
+      <p>
+        We do not sell your data. We only share it with:
+        <ul>
+          <li>Trusted partners for order fulfillment and payment processing.</li>
+          <li>Authorities if legally required.</li>
+        </ul>
+      </p>
+
+      <h5 class="mt-4">Data Security</h5>
+      <p>
+        Your data is protected through encryption (SSL), and passwords are securely hashed. While we implement strict security practices, no system is entirely immune to breaches.
+      </p>
+
+      <h5 class="mt-4">Your Rights</h5>
+      <ul>
+        <li>View and update your account data.</li>
+        <li>Request deletion or restrict usage.</li>
+        <li>Unsubscribe from marketing communications.</li>
+      </ul>
+    </div>
+
+    <!-- Cookies Policy -->
+    <div class="mb-5">
+      <h3 class="mb-4">Cookies Policy</h3>
+      <p>
+        We use cookies to enhance your browsing experience, analyze performance, and deliver relevant content.
+      </p>
+
+      <h5 class="mt-4">What Are Cookies?</h5>
+      <p>
+        Cookies are small text files stored in your browser that help websites recognize you and remember information like login status and preferences.
+      </p>
+
+      <h5 class="mt-4">Types of Cookies We Use</h5>
+      <ul>
+        <li><strong>Essential:</strong> Enable basic functions like cart and login.</li>
+        <li><strong>Performance:</strong> Collect anonymous stats to improve usability.</li>
+        <li><strong>Functional:</strong> Remember your preferences (e.g. language).</li>
+        <li><strong>Marketing:</strong> Deliver personalized ads (only with consent).</li>
+      </ul>
+
+      <h5 class="mt-4">Managing Cookies</h5>
+      <p>
+        You can manage or disable cookies via your browser settings. Disabling some may affect functionality.
+      </p>
+
+      <h5 class="mt-4">Third-party Cookies</h5>
+      <p>
+        We may use cookies from analytics and ad partners like Google or Meta. Please refer to their individual policies for details.
+      </p>
+    </div>
+
+    <!-- Final Sections -->
+    <div class="mb-5">
+      <h3 class="mb-4">Policy Updates</h3>
+      <p>
+        We may revise this policy from time to time. Major updates will be communicated via email or on this page. Please check periodically.
+      </p>
+    </div>
+
+    <div class="mb-5">
+      <h3 class="mb-4">Contact Us</h3>
+      <p>
+        For any questions or concerns regarding this policy, please <a href="{% url 'contact' %}">contact us</a>. We are committed to protecting your privacy and providing transparency.
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

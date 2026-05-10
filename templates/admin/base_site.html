@@ -1,0 +1,22 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}SeizeDeals Admin{% endblock %}
+
+{% block extrastyle %}
+<link href="{% static 'admin-custom.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block branding %}
+<h1 class="navbar-brand">SeizeDeals Admin</h1>
+{% endblock %}
+
+{% block nav-global %} 
+<!-- Add custom nav bar if needed -->
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+  {{ block.super }}
+</div>
+{% endblock %}

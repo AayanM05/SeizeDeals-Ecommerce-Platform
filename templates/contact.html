@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="section-content padding-y" style="background-color: #fff; font-family: 'Marcellus', serif; padding-bottom: 120px;">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2>Contact Us</h2>
+      <p class="text-muted">We’d love to hear from you! Reach out with your questions, feedback, or support inquiries.</p>
+    </div>
+
+    <div class="row" style="padding-top: 40px;">
+
+
+      <!-- Contact Info -->
+      <div class="col-md-6 contact-info" style="padding-bottom: 110px;" >
+        <h5>Our Office</h5>
+        <p>
+          SeizeDeals Pvt. Ltd. <br>
+          Varale Talegaon,<br>
+          Pune - 410 507
+        </p>
+
+        <h5>Get in Touch</h5>
+        <p>
+          <strong>Email:</strong> support@seizedeals.com<br>
+          <strong>Phone:</strong> +91 999 999 9999
+        </p>
+
+        <h5>Follow Us</h5>
+        <a href="https://instagram.com" target="_blank" class="btn btn-outline-secondary btn-sm rounded-circle mr-1"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank" class="btn btn-outline-secondary btn-sm rounded-circle mr-1"><i class="fab fa-twitter"></i></a>
+        <a href="https://facebook.com" target="_blank" class="btn btn-outline-secondary btn-sm rounded-circle"><i class="fab fa-facebook-f"></i></a>
+      </div>
+
+
+
+      <!-- Contact Form -->
+      <div class="col-md-6 contact-frm">
+        {% if messages %}
+  {% for message in messages %}
+    <div class="alert alert-success">{{ message }}</div>
+  {% endfor %}
+{% endif %}
+
+<form method="POST" action="">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit" class="btn btn-success">Send Message</button>
+</form>
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+
+
+{% endblock %}

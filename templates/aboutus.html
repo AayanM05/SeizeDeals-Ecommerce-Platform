@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="about-section" style="padding: 60px 20px; background: #fff;">
+  <div class="container" style="max-width: 900px; margin: auto;">
+
+    <h2 class="about-title">About SeizeDeals</h2>
+    
+
+   
+<section class="section-content padding-y" style="padding-bottom: 70px;">
+  <div class="container text-center">
+
+    
+
+    <!-- Intro -->
+    <p class="lead mb-4">
+      Welcome to <strong>SeizeDeals</strong> – where quality meets convenience.
+    </p>
+
+    <!-- Full Description -->
+    <div class="col-md-10 offset-md-1 text-justify">
+      <p>
+        SeizeDeals is a modern eCommerce platform developed to bring users a fast, secure, and engaging shopping experience. Whether you're buying electronics, fashion, or everyday essentials, our platform ensures a smooth and personalized journey.
+      </p>
+      <p>
+        Our mission is to empower consumers with seamless digital shopping and help small sellers grow by providing them with a powerful online presence.
+      </p>
+      <p>
+        Built using Python and Django, our backend ensures security and reliability. With integrated Razorpay payments, users enjoy safe and hassle-free transactions. From user registration to order tracking – everything is streamlined with intuitive design and functionality.
+      </p>
+      <p>
+        Thank you for choosing SeizeDeals. We’re committed to delivering not just products, but a delightful experience.
+      </p>
+    </div>
+  </div>
+
+  <div class="text-center mb-4" style="justify-content: center; align-items: center; padding-top: 27px; ">
+  <img src="{% static 'images/logo.png' %}" alt="SeizeDeals Logo" style="width: 480px; align: center;" class="mb-4">
+
+  </div>
+
+
+
+
+    <h3 class="about-subtitle" style="padding-top: 27px;">Our Mission</h3>
+    <p class="about-text">
+      Our mission is simple: to make online shopping easy, affordable, and enjoyable. We believe everyone should have access to amazing products without breaking the bank.
+    </p>
+
+    <h3 class="about-subtitle">Why Choose Us?</h3>
+    <ul class="about-list">
+      <li>✔ Curated collection of high-quality products</li>
+      <li>✔ Fast and secure checkout process</li>
+      <li>✔ Dedicated customer support</li>
+      <li>✔ Exclusive discounts and offers</li>
+    </ul>
+
+    <h3 class="about-subtitle">Get in Touch</h3>
+    <p class="about-text" >
+      Have questions, suggestions, or feedback? <a href="{% url 'contact' %}" class="link-green">Contact us</a> anytime—we'd love to hear from you!
+    </p>
+  </div>
+</section>
+
+</section>
+
+
+
+{% endblock %}

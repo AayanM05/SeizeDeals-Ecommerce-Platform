@@ -1,0 +1,960 @@
+[
+{
+  "model": "category.category",
+  "pk": 1,
+  "fields": {
+    "category_name": "Mens Pants",
+    "slug": "mens-pants",
+    "description": "",
+    "cat_image": "photos/categories/mens-pants.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 2,
+  "fields": {
+    "category_name": "Mens Shirts",
+    "slug": "mens-shirts",
+    "description": "",
+    "cat_image": "photos/categories/mens-shirts.jpeg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 3,
+  "fields": {
+    "category_name": "Mens Tshirts",
+    "slug": "mens-tshirts",
+    "description": "",
+    "cat_image": "photos/categories/mens-tshirts.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 4,
+  "fields": {
+    "category_name": "Womens Kurtis",
+    "slug": "womens-kurtis",
+    "description": "",
+    "cat_image": "photos/categories/womens-kurtis.jpeg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 5,
+  "fields": {
+    "category_name": "Womens Trousers",
+    "slug": "womens-trousers",
+    "description": "",
+    "cat_image": "photos/categories/womens-trousers.jpeg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 6,
+  "fields": {
+    "category_name": "Womens Shirts",
+    "slug": "womens-shirts",
+    "description": "",
+    "cat_image": "photos/categories/womens-shirts.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 7,
+  "fields": {
+    "category_name": "Sneakers",
+    "slug": "sneakers",
+    "description": "",
+    "cat_image": "photos/categories/sneakers.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 8,
+  "fields": {
+    "category_name": "Sports Shoes",
+    "slug": "sports-shoes",
+    "description": "",
+    "cat_image": "photos/categories/sports-shoes.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 9,
+  "fields": {
+    "category_name": "Loafer Shoes",
+    "slug": "loafer-shoes",
+    "description": "",
+    "cat_image": "photos/categories/loafer-shoes.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 10,
+  "fields": {
+    "category_name": "Womens Hills",
+    "slug": "womens-hills",
+    "description": "",
+    "cat_image": "photos/categories/womens-hills.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 11,
+  "fields": {
+    "category_name": "Smartphones",
+    "slug": "smartphones",
+    "description": "",
+    "cat_image": "photos/categories/smartphones.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 12,
+  "fields": {
+    "category_name": "Laptop",
+    "slug": "laptop",
+    "description": "",
+    "cat_image": "photos/categories/laptop.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 13,
+  "fields": {
+    "category_name": "Tablet",
+    "slug": "tablet",
+    "description": "",
+    "cat_image": "photos/categories/tablet.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 14,
+  "fields": {
+    "category_name": "Headphones",
+    "slug": "headphones",
+    "description": "",
+    "cat_image": "photos/categories/headphones.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 1,
+  "fields": {
+    "product_name": "Lymio Men Cargo || Men Cotton Cargo Pants",
+    "slug": "lymio-men-cargo-men-cotton-cargo-pants",
+    "description": "About this item - \r\nMen Cargo || Men Cargo Pants || Men Cargo Pants Cotton || Cargos for Men\r\nPattern Type:Plain\r\nClosure Type:Drawstring Waist",
+    "price": 699,
+    "images": "photos/products/mp-1.jpg",
+    "stock": 20,
+    "is_available": true,
+    "category": 1,
+    "created_date": "2025-04-11T12:37:43.540Z",
+    "modified_date": "2025-04-11T13:11:52.290Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 2,
+  "fields": {
+    "product_name": "Temporary Product",
+    "slug": "temporary-product",
+    "description": "Temporary Product temporary-product Temporary Product temporary-product Temporary Product temporary-product Temporary Product temporary-product Temporary Product temporary-product",
+    "price": 10,
+    "images": "photos/products/1.jpg",
+    "stock": 7,
+    "is_available": true,
+    "category": 1,
+    "created_date": "2025-04-11T14:17:20.802Z",
+    "modified_date": "2025-04-14T10:28:25.853Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 3,
+  "fields": {
+    "product_name": "Samsung Galaxy S24 Ultra 5G",
+    "slug": "samsung-galaxy-s24-ultra-5g",
+    "description": "About this item\r\nMeet Galaxy S24 Ultra, the ultimate form of Galaxy Ultra with a new titanium exterior and a 17.25cm (6.8\") flat display. It's an absolute marvel of design.\r\nThe legacy of Galaxy Note is alive and well. Write, tap and navigate with precision your fingers wish they had on the new, flat display.",
+    "price": 91235,
+    "images": "photos/products/s24.jpg",
+    "stock": 20,
+    "is_available": true,
+    "category": 11,
+    "created_date": "2025-04-12T04:58:58.824Z",
+    "modified_date": "2025-04-12T04:59:28.537Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 4,
+  "fields": {
+    "product_name": "Men's Nike Jordan Air 1",
+    "slug": "nike-mens-jordan-air-1",
+    "description": "",
+    "price": 43597,
+    "images": "photos/products/snk-1.jpg",
+    "stock": 10,
+    "is_available": true,
+    "category": 7,
+    "created_date": "2025-04-12T19:35:20.506Z",
+    "modified_date": "2025-04-12T19:36:44.191Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 5,
+  "fields": {
+    "product_name": "Lymio Casual Regular Fit Shirt for Men",
+    "slug": "lymio-casual-regular-fit-shirt-men",
+    "description": "About this item -\r\nCasual Shirt for Men|| Shirt for Men|| Men Stylish Shirt\r\nStyle:Casual\r\nNeckline:Collar\r\nSleeve Length:Long Sleeve\r\nReguler Fit",
+    "price": 499,
+    "images": "photos/products/ms-1.jpg",
+    "stock": 10,
+    "is_available": true,
+    "category": 2,
+    "created_date": "2025-04-15T08:11:53.056Z",
+    "modified_date": "2025-04-15T08:11:53.056Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 6,
+  "fields": {
+    "product_name": "Women's Ada Hand Embroidered Lucknowi Chikankari Cotton Kurti",
+    "slug": "womens-ada-hand-embroidered-lucknowi-chikankari-cotton-kurti",
+    "description": "About this item\r\nLength of Kurta : 44 inches\r\nEmbroidery: Bakhiya, Phanda, and Pechni using White color Cotton Thread\r\nKurta has a Round Neck, 3/4th Sleeves, Calf Length, Straight Hem and Side Slits\r\nHandcrafted Authentic Lucknow Chikankari Hence Motifs on the Products may Slightly Vary",
+    "price": 1740,
+    "images": "photos/products/wk-1.jpg",
+    "stock": 10,
+    "is_available": true,
+    "category": 4,
+    "created_date": "2025-04-15T08:15:44.832Z",
+    "modified_date": "2025-04-15T08:15:44.832Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 7,
+  "fields": {
+    "product_name": "boAt Rockerz 550 Bluetooth Wireless Over Ear Headphones",
+    "slug": "boat-rockerz-550-bluetooth-wireless-over-ear-headphones",
+    "description": "About this item\r\nPlayback- The mighty 500mAh battery capacity offers a superior playback time of up to 20 Hours\r\nDrivers- Its 50mm dynamic drivers help pump out immersive audio all day long, Charging Time 2.5 hours\r\nEar Cushions- It has been ergonomically designed and structured as an over-ear headphone to provide the best user experience with its plush padded earcushions",
+    "price": 1699,
+    "images": "photos/products/bh-1.jpg",
+    "stock": 12,
+    "is_available": true,
+    "category": 14,
+    "created_date": "2025-04-15T08:21:45.318Z",
+    "modified_date": "2025-04-15T08:21:45.318Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 8,
+  "fields": {
+    "product_name": "Men's Synthetic Leather Loafer Shoes",
+    "slug": "mens-synthetic-leather-loafer-shoes",
+    "description": "About this item\r\nCare Instructions : Wipe gently with a dry cloth to remove any dried-on dirt and dust\r\nClosure : Slip On\r\nUpper Material : Synthetic Leather\r\nPattern : Solid",
+    "price": 529,
+    "images": "photos/products/ls-1.jpg",
+    "stock": 8,
+    "is_available": true,
+    "category": 9,
+    "created_date": "2025-04-15T08:29:41.539Z",
+    "modified_date": "2025-04-15T08:29:41.539Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 9,
+  "fields": {
+    "product_name": "ASUS ROG Strix G16 Gaming Laptop",
+    "slug": "asus-rog-strix-g16-gaming-laptop",
+    "description": "About this item\r\nProcessor: 13th Gen Intel Core i7-13650HX Processor 2.6 GHz 24M Cache, up to 4.9 GHz, 14 cores: 6 P-cores and 8 E-cores) Enhanced Multitasking.\r\nMemory: 16GB DDR5 SO-DIMM with | Storage: 1TB PCIe 4.0 NVMe M.2 SSD\r\nGraphics: NVIDIA Dedicated GeForce RTX 4070 Laptop GPU 8GB GDD VRAM",
+    "price": 149990,
+    "images": "photos/products/lptp-1.jpg",
+    "stock": 2,
+    "is_available": true,
+    "category": 12,
+    "created_date": "2025-04-15T08:33:15.574Z",
+    "modified_date": "2025-04-15T08:33:15.574Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "variation_category": "color",
+    "variation_value": "Original",
+    "is_active": true,
+    "created_date": "2025-04-11T12:40:01.920Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "variation_category": "size",
+    "variation_value": "S",
+    "is_active": true,
+    "created_date": "2025-04-11T12:40:21.323Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "variation_category": "size",
+    "variation_value": "M",
+    "is_active": true,
+    "created_date": "2025-04-11T12:51:22.807Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 4,
+  "fields": {
+    "product": 1,
+    "variation_category": "size",
+    "variation_value": "L",
+    "is_active": true,
+    "created_date": "2025-04-11T12:51:22.808Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 5,
+  "fields": {
+    "product": 1,
+    "variation_category": "size",
+    "variation_value": "XL",
+    "is_active": true,
+    "created_date": "2025-04-11T13:11:52.296Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 6,
+  "fields": {
+    "product": 2,
+    "variation_category": "color",
+    "variation_value": "Original",
+    "is_active": true,
+    "created_date": "2025-04-11T14:17:20.817Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 7,
+  "fields": {
+    "product": 2,
+    "variation_category": "size",
+    "variation_value": "S",
+    "is_active": true,
+    "created_date": "2025-04-11T14:17:20.819Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 8,
+  "fields": {
+    "product": 2,
+    "variation_category": "size",
+    "variation_value": "M",
+    "is_active": true,
+    "created_date": "2025-04-11T14:17:20.821Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 9,
+  "fields": {
+    "product": 2,
+    "variation_category": "size",
+    "variation_value": "L",
+    "is_active": true,
+    "created_date": "2025-04-11T14:17:20.822Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 10,
+  "fields": {
+    "product": 2,
+    "variation_category": "size",
+    "variation_value": "XL",
+    "is_active": true,
+    "created_date": "2025-04-11T14:17:20.822Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 11,
+  "fields": {
+    "product": 3,
+    "variation_category": "color",
+    "variation_value": "Original",
+    "is_active": true,
+    "created_date": "2025-04-12T04:59:28.542Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 12,
+  "fields": {
+    "product": 3,
+    "variation_category": "color",
+    "variation_value": "Black",
+    "is_active": true,
+    "created_date": "2025-04-12T04:58:58.840Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 13,
+  "fields": {
+    "product": 4,
+    "variation_category": "color",
+    "variation_value": "Original",
+    "is_active": true,
+    "created_date": "2025-04-12T19:35:20.577Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 14,
+  "fields": {
+    "product": 4,
+    "variation_category": "color",
+    "variation_value": "Red",
+    "is_active": true,
+    "created_date": "2025-04-12T19:35:20.583Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 15,
+  "fields": {
+    "product": 4,
+    "variation_category": "color",
+    "variation_value": "Blue",
+    "is_active": true,
+    "created_date": "2025-04-12T19:35:20.586Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 16,
+  "fields": {
+    "product": 4,
+    "variation_category": "size",
+    "variation_value": "8 UK",
+    "is_active": true,
+    "created_date": "2025-04-12T19:35:20.593Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 17,
+  "fields": {
+    "product": 4,
+    "variation_category": "size",
+    "variation_value": "9 UK",
+    "is_active": true,
+    "created_date": "2025-04-12T19:35:20.599Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 18,
+  "fields": {
+    "product": 4,
+    "variation_category": "size",
+    "variation_value": "10 UK",
+    "is_active": true,
+    "created_date": "2025-04-12T19:35:20.603Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 19,
+  "fields": {
+    "product": 5,
+    "variation_category": "color",
+    "variation_value": "Original",
+    "is_active": true,
+    "created_date": "2025-04-15T08:11:53.086Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 20,
+  "fields": {
+    "product": 5,
+    "variation_category": "size",
+    "variation_value": "S",
+    "is_active": true,
+    "created_date": "2025-04-15T08:11:53.087Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 21,
+  "fields": {
+    "product": 5,
+    "variation_category": "size",
+    "variation_value": "M",
+    "is_active": true,
+    "created_date": "2025-04-15T08:11:53.089Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 22,
+  "fields": {
+    "product": 5,
+    "variation_category": "size",
+    "variation_value": "L",
+    "is_active": true,
+    "created_date": "2025-04-15T08:11:53.090Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 23,
+  "fields": {
+    "product": 5,
+    "variation_category": "size",
+    "variation_value": "XL",
+    "is_active": true,
+    "created_date": "2025-04-15T08:11:53.090Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 24,
+  "fields": {
+    "product": 6,
+    "variation_category": "color",
+    "variation_value": "Original",
+    "is_active": true,
+    "created_date": "2025-04-15T08:15:44.849Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 25,
+  "fields": {
+    "product": 6,
+    "variation_category": "size",
+    "variation_value": "S",
+    "is_active": true,
+    "created_date": "2025-04-15T08:15:44.851Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 26,
+  "fields": {
+    "product": 6,
+    "variation_category": "size",
+    "variation_value": "M",
+    "is_active": true,
+    "created_date": "2025-04-15T08:15:44.851Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 27,
+  "fields": {
+    "product": 6,
+    "variation_category": "size",
+    "variation_value": "L",
+    "is_active": true,
+    "created_date": "2025-04-15T08:15:44.852Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 28,
+  "fields": {
+    "product": 6,
+    "variation_category": "size",
+    "variation_value": "XL",
+    "is_active": true,
+    "created_date": "2025-04-15T08:15:44.852Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 29,
+  "fields": {
+    "product": 6,
+    "variation_category": "size",
+    "variation_value": "2XL",
+    "is_active": true,
+    "created_date": "2025-04-15T08:15:44.853Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 30,
+  "fields": {
+    "product": 7,
+    "variation_category": "color",
+    "variation_value": "Original",
+    "is_active": true,
+    "created_date": "2025-04-15T08:21:45.335Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 31,
+  "fields": {
+    "product": 8,
+    "variation_category": "color",
+    "variation_value": "Original",
+    "is_active": true,
+    "created_date": "2025-04-15T08:29:41.554Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 32,
+  "fields": {
+    "product": 8,
+    "variation_category": "size",
+    "variation_value": "7 UK",
+    "is_active": true,
+    "created_date": "2025-04-15T08:29:41.555Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 33,
+  "fields": {
+    "product": 8,
+    "variation_category": "size",
+    "variation_value": "8 UK",
+    "is_active": true,
+    "created_date": "2025-04-15T08:29:41.556Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 34,
+  "fields": {
+    "product": 8,
+    "variation_category": "size",
+    "variation_value": "9 UK",
+    "is_active": true,
+    "created_date": "2025-04-15T08:29:41.556Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 35,
+  "fields": {
+    "product": 8,
+    "variation_category": "size",
+    "variation_value": "10 UK",
+    "is_active": true,
+    "created_date": "2025-04-15T08:29:41.556Z"
+  }
+},
+{
+  "model": "store.variation",
+  "pk": 36,
+  "fields": {
+    "product": 9,
+    "variation_category": "color",
+    "variation_value": "Original",
+    "is_active": true,
+    "created_date": "2025-04-15T08:33:15.593Z"
+  }
+},
+{
+  "model": "store.reviewrating",
+  "pk": 1,
+  "fields": {
+    "product": 2,
+    "user": 3,
+    "subject": "Very Expensive",
+    "review": "Very Expensive products dont buy",
+    "rating": 1.0,
+    "ip": "127.0.0.1",
+    "status": true,
+    "created_at": "2025-04-11T15:30:35.972Z",
+    "updated_at": "2025-04-11T15:30:35.972Z"
+  }
+},
+{
+  "model": "store.reviewrating",
+  "pk": 2,
+  "fields": {
+    "product": 3,
+    "user": 1,
+    "subject": "Very Awesome Product",
+    "review": "Best phone in the world",
+    "rating": 5.0,
+    "ip": "127.0.0.1",
+    "status": true,
+    "created_at": "2025-04-12T05:01:21.148Z",
+    "updated_at": "2025-04-12T05:01:21.148Z"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "image": "store/products/mp-2.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "image": "store/products/mp-3.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 3,
+  "fields": {
+    "product": 2,
+    "image": "store/products/3.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 4,
+  "fields": {
+    "product": 2,
+    "image": "store/products/2.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 5,
+  "fields": {
+    "product": 2,
+    "image": "store/products/4.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 6,
+  "fields": {
+    "product": 3,
+    "image": "store/products/s24.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 7,
+  "fields": {
+    "product": 3,
+    "image": "store/products/s24_HIMVEkN.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 8,
+  "fields": {
+    "product": 4,
+    "image": "store/products/snk-2.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 9,
+  "fields": {
+    "product": 4,
+    "image": "store/products/snk-3.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 10,
+  "fields": {
+    "product": 4,
+    "image": "store/products/snk-4.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 11,
+  "fields": {
+    "product": 4,
+    "image": "store/products/snk-5.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 12,
+  "fields": {
+    "product": 5,
+    "image": "store/products/ms-1.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 13,
+  "fields": {
+    "product": 5,
+    "image": "store/products/ms-1_SZTGh0j.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 14,
+  "fields": {
+    "product": 5,
+    "image": "store/products/ms-1_gwS02Kg.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 15,
+  "fields": {
+    "product": 5,
+    "image": "store/products/ms-1_A8RDciC.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 16,
+  "fields": {
+    "product": 6,
+    "image": "store/products/wk-1.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 17,
+  "fields": {
+    "product": 6,
+    "image": "store/products/wk-1_HRuOCXN.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 18,
+  "fields": {
+    "product": 6,
+    "image": "store/products/wk-1_copbVlr.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 19,
+  "fields": {
+    "product": 6,
+    "image": "store/products/wk-1_QDkBeJn.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 20,
+  "fields": {
+    "product": 7,
+    "image": "store/products/bh-1.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 21,
+  "fields": {
+    "product": 7,
+    "image": "store/products/bh-1_OEafUOE.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 22,
+  "fields": {
+    "product": 7,
+    "image": "store/products/bh-1_aTLajDe.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 23,
+  "fields": {
+    "product": 7,
+    "image": "store/products/bh-1_a28um2Z.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 24,
+  "fields": {
+    "product": 8,
+    "image": "store/products/ls-1.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 25,
+  "fields": {
+    "product": 8,
+    "image": "store/products/ls-1_Bku3uX2.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 26,
+  "fields": {
+    "product": 8,
+    "image": "store/products/ls-1_BGVvmN3.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 27,
+  "fields": {
+    "product": 8,
+    "image": "store/products/ls-1_52V6GXP.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 28,
+  "fields": {
+    "product": 9,
+    "image": "store/products/lptp-1.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 29,
+  "fields": {
+    "product": 9,
+    "image": "store/products/lptp-1_24jOFGF.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 30,
+  "fields": {
+    "product": 9,
+    "image": "store/products/lptp-1_eLTU9aH.jpg"
+  }
+},
+{
+  "model": "store.productgallery",
+  "pk": 31,
+  "fields": {
+    "product": 9,
+    "image": "store/products/lptp-1_OdY6BpW.jpg"
+  }
+}
+]

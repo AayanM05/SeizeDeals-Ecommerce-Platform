@@ -1,0 +1,12 @@
+# Ignore ALL CSS, JS, and Fonts from language statistics
+*.css linguist-vendored
+*.js linguist-vendored
+*.scss linguist-vendored
+*.html linguist-language=Python
+
+# Mark the entire static and media directories as vendored
+static/** linguist-vendored
+media/** linguist-vendored
+
+# Ensure Python gets 100% focus
+*.py linguist-detectable=true

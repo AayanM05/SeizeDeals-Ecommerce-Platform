@@ -1,0 +1,40 @@
+/* Change header background */
+
+#header {
+    background-color: #28a745 !important;
+}
+
+
+/* Change logo text color */
+
+#site-name {
+    color: white !important;
+    font-weight: bold;
+    font-family: 'Marcellus', serif;
+}
+
+
+/* Customize buttons */
+
+.button,
+.submit-row input {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: white !important;
+}
+
+
+/* Hover effect */
+
+.button:hover,
+.submit-row input:hover {
+    background-color: #218838 !important;
+}
+
+
+/* Font for entire admin */
+
+body,
+.module {
+    font-family: 'Marcellus', serif;
+}

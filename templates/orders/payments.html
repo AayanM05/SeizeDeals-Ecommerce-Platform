@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="section-content padding-y" style="min-height: 80vh;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+
+        <div class="text-center mb-4">
+          <h2>Review & Pay</h2>
+        </div>
+
+        <ul class="list-group mb-3">
+          <li class="list-group-item">Order Number: <strong>{{ order.order_number }}</strong></li>
+          <li class="list-group-item">Total Amount: <strong>₹ {{ grand_total }}</strong></li>
+          <li class="list-group-item">Tax: ₹ {{ tax }}</li>
+        </ul>
+
+        <!-- Payment Button -->
+        <button id="rzp-button1" class="btn btn-primary btn-block">Pay with Razorpay</button>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Razorpay Checkout Script -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+  var options = {
+      "key": "{{ razorpay_key }}",
+      "amount": "{{ razorpay_amount }}",
+      "currency": "INR",
+      "name": "Your Store",
+      "description": "Order Payment",
+      "image": "{% static 'images/logo.png' %}",
+      "order_id": "{{ razorpay_order_id }}",
+      "handler": function (response){
+          // Send payment data to backend
+          fetch("{% url 'payment_success' %}", {
+              method: "POST",
+              headers: {
+                  "Content-Type": "application/json",
+                  "X-CSRFToken": "{{ csrf_token }}"
+              },
+			  
+              body: JSON.stringify({
+                  razorpay_payment_id: response.razorpay_payment_id,
+                  razorpay_order_id: response.razorpay_order_id,
+                  razorpay_signature: response.razorpay_signature
+              })
+          })
+          .then(res => res.json())
+          .then(data => {
+              if (data.status === 'success') {
+                  window.location.href = "{% url 'order_complete' %}?order_number={{ order.order_number }}";
+              } else {
+                  alert("Payment verification failed: " + data.reason);
+              }
+          });
+      },
+      "prefill": {
+          "name": "{{ order.full_name }}",
+          "email": "{{ order.email }}",
+          "contact": "{{ order.phone }}"
+      },
+      "theme": {
+          "color": "#F37254"
+      }
+  };
+
+  var rzp1 = new Razorpay(options);
+  document.getElementById('rzp-button1').onclick = function(e){
+      rzp1.open();
+      e.preventDefault();
+  }
+</script>
+
+{% endblock %}
