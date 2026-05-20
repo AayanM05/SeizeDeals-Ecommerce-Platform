@@ -195,17 +195,13 @@ Full order lifecycle: New > Accepted > Completed. Payment stores Razorpay transa
 
 ---
 
-## Developer
+## 👨‍💻 Developer
 
-**Aayan Mulla**
-BE Computer Engineering (AI & Data Science)
-Dr. D. Y. Patil College of Engineering and Innovation, Pune
+**Aayan Mulla**  
+🎓 BE Computer Engineering  
+🏫 Dr. D. Y. Patil College of Engineering and Innovation, Varale, Pune.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/AayanM05)
 [![Email](https://img.shields.io/badge/Email%20Me-D14836?style=flat&logo=gmail&logoColor=white)](mailto:aayanmulla7777@gmail.com)
 
----
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
